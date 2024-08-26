@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What was the primary finding of the study on diabetic retinopathy care at Greenlane Clinical Centre in Auckland?",
+    question: "According to the bowel cancer screening study, how much more likely were Māori participants to have unsuccessful screening attempts compared to Europeans?",
     options: [
-      "Māori patients were overrepresented in referrals",
-      "There were significant ethnic disparities in care provision",
-      "No significant differences in care provision across ethnicities at the specialist level",
-      "Māori patients presented with less severe disease"
+      "1.07 times",
+      "2.07 times",
+      "3.07 times",
+      "4.07 times"
     ],
-    correctAnswer: 2
+    correctAnswer: 1  // b) 2.07 times (index 1)
   },
   {
-    question: "According to the study on diabetes treatment satisfaction, what was observed among Māori participants?",
+    question: "What was the primary reason for the large increase in the 2024-2025 health budget?",
     options: [
-      "Low treatment satisfaction and optimal glycaemic control",
-      "High treatment satisfaction despite suboptimal glycaemic control",
-      "Low treatment satisfaction and suboptimal glycaemic control",
-      "High treatment satisfaction and optimal glycaemic control"
+      "Operational costs",
+      "Staffing shortages",
+      "Capital spending",
+      "Frontline services"
     ],
-    correctAnswer: 1
+    correctAnswer: 2  // c) Capital spending (index 2)
   },
   {
-    question: "What was a key recommendation from the study on culturally safe active school travel options for tamariki Māori?",
+    question: "How much more of their weekly income do Māori need to spend on dental treatments compared to NZ Europeans?",
     options: [
-      "Reduce funding for Māori-medium education",
-      "Implement non-Māori-led infrastructure planning",
-      "Ignore cultural backgrounds in town planning",
-      "Implement Māori-led infrastructure planning and increase funding for Māori-medium education"
+      "6%",
+      "16%",
+      "26%",
+      "36%"
     ],
-    correctAnswer: 3
+    correctAnswer: 1  // b) 16% (index 1)
   },
   {
-    question: "How did the number of filled jobs in healthcare change from June 2023 to June 2024?",
+    question: "What percentage of all bariatric procedures did Māori receive between 2010-2020 at Te Whatu Ora Waitematā?",
     options: [
-      "Decreased by 5.2%",
-      "Increased by 0.1%",
-      "Decreased by 0.1%",
-      "Increased by 5.2%"
+      "9%",
+      "19%",
+      "29%",
+      "39%"
     ],
-    correctAnswer: 3
+    correctAnswer: 1  // b) 19% (index 1)
   },
   {
-    question: "What was a key finding of the Motu Research study on Māori education pathways and labour market outcomes?",
+    question: "What is the main criticism of Aotearoa's proposed second Emissions Reduction Plan (ERP2)?",
     options: [
-      "Men and women had identical educational and financial outcomes",
-      "Women gained more education but men achieved higher savings",
-      "Men gained more education and achieved higher savings",
-      "Women gained more education and achieved higher savings"
+      "It focuses too much on renewable energy",
+      "It relies heavily on emissions trading and speculative technologies",
+      "It sets unrealistic targets for carbon neutrality",
+      "It doesn't address agricultural emissions"
     ],
-    correctAnswer: 1
+    correctAnswer: 1  // b) It relies heavily on emissions trading and speculative technologies (index 1)
   }
 ];
 
