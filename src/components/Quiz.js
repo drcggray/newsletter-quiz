@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the bowel cancer screening study, how much more likely were Māori participants to have unsuccessful screening attempts compared to Europeans?",
+    question: "What was the alcohol-attributable mortality rate for Māori compared to non-Māori?",
     options: [
-      "1.07 times",
-      "2.07 times",
-      "3.07 times",
-      "4.07 times"
+      "Equal",
+      "1.5 times higher",
+      "Twice as high",
+      "Three times higher"
     ],
-    correctAnswer: 1  // b) 2.07 times (index 1)
+    correctAnswer: 2  // C) Twice as high (index 2)
   },
   {
-    question: "What was the primary reason for the large increase in the 2024-2025 health budget?",
+    question: "How long was the average wait time for hip fracture surgery for Māori patients compared to NZ Europeans?",
     options: [
-      "Operational costs",
-      "Staffing shortages",
-      "Capital spending",
-      "Frontline services"
+      "38.7 vs 34.5 hours",
+      "34.5 vs 38.7 hours",
+      "48 vs 34.5 hours",
+      "No significant difference"
     ],
-    correctAnswer: 2  // c) Capital spending (index 2)
+    correctAnswer: 0  // A) 38.7 vs 34.5 hours (index 0)
   },
   {
-    question: "How much more of their weekly income do Māori need to spend on dental treatments compared to NZ Europeans?",
+    question: "What was the trend in filled jobs in New Zealand for July?",
     options: [
-      "6%",
-      "16%",
-      "26%",
-      "36%"
+      "0.1% increase",
+      "0.1% decrease",
+      "1% increase",
+      "1% decrease"
     ],
-    correctAnswer: 1  // b) 16% (index 1)
+    correctAnswer: 1  // B) 0.1% decrease (index 1)
   },
   {
-    question: "What percentage of all bariatric procedures did Māori receive between 2010-2020 at Te Whatu Ora Waitematā?",
+    question: "How many children in Aotearoa were reported to be living in homes struggling to afford basic necessities?",
     options: [
-      "9%",
-      "19%",
-      "29%",
-      "39%"
+      "Over 100,000",
+      "Over 120,000",
+      "Over 144,000",
+      "Over 200,000"
     ],
-    correctAnswer: 1  // b) 19% (index 1)
+    correctAnswer: 2  // C) Over 144,000 (index 2)
   },
   {
-    question: "What is the main criticism of Aotearoa's proposed second Emissions Reduction Plan (ERP2)?",
+    question: "What is the life expectancy for Māori males according to the Health and Independence Report 2023?",
     options: [
-      "It focuses too much on renewable energy",
-      "It relies heavily on emissions trading and speculative technologies",
-      "It sets unrealistic targets for carbon neutrality",
-      "It doesn't address agricultural emissions"
+      "70.5 years",
+      "73.4 years",
+      "76.8 years",
+      "80.3 years"
     ],
-    correctAnswer: 1  // b) It relies heavily on emissions trading and speculative technologies (index 1)
+    correctAnswer: 1  // B) 73.4 years (index 1)
   }
 ];
 
