@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What was the alcohol-attributable mortality rate for Māori compared to non-Māori?",
+    question: "What percentage of individuals in the Waikato region study had discrepancies between self-reported ethnicity and administrative records?",
     options: [
-      "Equal",
-      "1.5 times higher",
-      "Twice as high",
-      "Three times higher"
+      "5.6-6.1%",
+      "9.5-11.1%",
+      "75-91.5%",
+      "45-80%"
     ],
-    correctAnswer: 2  // C) Twice as high (index 2)
+    correctAnswer: 1  // B) 9.5-11.1% (index 1)
   },
   {
-    question: "How long was the average wait time for hip fracture surgery for Māori patients compared to NZ Europeans?",
+    question: "What is the name of Google DeepMind's new AI system for designing novel proteins?",
     options: [
-      "38.7 vs 34.5 hours",
-      "34.5 vs 38.7 hours",
-      "48 vs 34.5 hours",
-      "No significant difference"
+      "AlphaFold",
+      "AlphaGo",
+      "AlphaProteo",
+      "AlphaDrug"
     ],
-    correctAnswer: 0  // A) 38.7 vs 34.5 hours (index 0)
+    correctAnswer: 2  // C) AlphaProteo (index 2)
   },
   {
-    question: "What was the trend in filled jobs in New Zealand for July?",
+    question: "According to the COVID-19 vaccine effectiveness study in Aotearoa, when was protection strongest?",
     options: [
-      "0.1% increase",
-      "0.1% decrease",
-      "1% increase",
-      "1% decrease"
+      "Six months after vaccination",
+      "One year after vaccination",
+      "Immediately after vaccination",
+      "After receiving a booster dose"
     ],
-    correctAnswer: 1  // B) 0.1% decrease (index 1)
+    correctAnswer: 2  // C) Immediately after vaccination (index 2)
   },
   {
-    question: "How many children in Aotearoa were reported to be living in homes struggling to afford basic necessities?",
+    question: "What is the timeframe for developing a new Māori health strategy, according to the Cabinet papers?",
     options: [
-      "Over 100,000",
-      "Over 120,000",
-      "Over 144,000",
-      "Over 200,000"
+      "By November 2024",
+      "By December 2024",
+      "By March 2025",
+      "By February 2025"
     ],
-    correctAnswer: 2  // C) Over 144,000 (index 2)
+    correctAnswer: 1  // B) By December 2024 (index 1)
   },
   {
-    question: "What is the life expectancy for Māori males according to the Health and Independence Report 2023?",
+    question: "How much higher is the risk of dementia for Māori and Pacific peoples compared to Pākehā?",
     options: [
-      "70.5 years",
-      "73.4 years",
-      "76.8 years",
-      "80.3 years"
+      "15-30% higher",
+      "25-50% higher",
+      "35-70% higher",
+      "45-80% higher"
     ],
-    correctAnswer: 1  // B) 73.4 years (index 1)
+    correctAnswer: 3  // D) 45-80% higher (index 3)
   }
 ];
 
@@ -166,7 +166,7 @@ const Quiz = () => {
           <h2 className="text-2xl font-bold mb-4">Quiz Completed!</h2>
           {quizAttempt === 1 ? (
             <>
-              <p className="text-xl mb-4">Your pre-reading score: {score}/5</p>
+              <p className="text-xl mb-4">Your pre-reading score: {score}/{questions.length}</p>
               <p className="mb-4">Well done on completing the first round. We encourage you to read the newsletter for a deeper understanding of these topics. Feel free to retake the quiz afterwards to gauge your learning progress.</p>
               <button 
                 onClick={resetQuiz}
@@ -177,8 +177,8 @@ const Quiz = () => {
             </>
           ) : (
             <>
-              <p className="text-xl mb-2">Your pre-reading score: {firstAttemptScore}/5</p>
-              <p className="text-xl mb-4">Your post-reading score: {score}/5</p>
+              <p className="text-xl mb-2">Your pre-reading score: {firstAttemptScore}/{questions.length}</p>
+              <p className="text-xl mb-4">Your post-reading score: {score}/{questions.length}</p>
               {score > firstAttemptScore && (
                 <p className="text-green-600 font-semibold mb-4">
                   Great job! You've improved your score after reading the newsletter.
