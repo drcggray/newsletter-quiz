@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What percentage of individuals in the Waikato region study had discrepancies between self-reported ethnicity and administrative records?",
+    question: "According to the study on amenable mortality across District Health Boards in Aotearoa New Zealand, what was found to be the strongest predictor of amenable mortality?",
     options: [
-      "5.6-6.1%",
-      "9.5-11.1%",
-      "75-91.5%",
-      "45-80%"
+      "Deprivation",
+      "Age",
+      "Māori ethnicity",
+      "Geographic location"
     ],
-    correctAnswer: 1  // B) 9.5-11.1% (index 1)
+    correctAnswer: 2  // c) Māori ethnicity (index 2)
   },
   {
-    question: "What is the name of Google DeepMind's new AI system for designing novel proteins?",
+    question: "The systematic review of neurosurgical disease and care for Māori revealed:",
     options: [
-      "AlphaFold",
-      "AlphaGo",
-      "AlphaProteo",
-      "AlphaDrug"
+      "Extensive research on Māori neurosurgical outcomes",
+      "Limited neurosurgical research for Māori",
+      "Equal representation of Māori in neurosurgical studies",
+      "No disparities in neurosurgical conditions between Māori and non-Māori"
     ],
-    correctAnswer: 2  // C) AlphaProteo (index 2)
+    correctAnswer: 1  // b) Limited neurosurgical research for Māori (index 1)
   },
   {
-    question: "According to the COVID-19 vaccine effectiveness study in Aotearoa, when was protection strongest?",
+    question: "The study on critical congenital heart disease (CCHD) in New Zealand found that:",
     options: [
-      "Six months after vaccination",
-      "One year after vaccination",
-      "Immediately after vaccination",
-      "After receiving a booster dose"
+      "European infants had lower survival odds compared to Māori and Pacific infants",
+      "There were no differences in healthcare quality across ethnic groups",
+      "Māori and Pacific parents reported multiple challenges navigating the health system",
+      "The healthcare system was well-resourced for all ethnic groups"
     ],
-    correctAnswer: 2  // C) Immediately after vaccination (index 2)
+    correctAnswer: 2  // c) Māori and Pacific parents reported multiple challenges navigating the health system (index 2)
   },
   {
-    question: "What is the timeframe for developing a new Māori health strategy, according to the Cabinet papers?",
+    question: "The study on ethnicity records in the Waikato region revealed inaccuracies in Māori ethnicity data. What percentage of Māori in the study identified with more than one ethnicity, highlighting the complexity of ethnicity data collection?",
     options: [
-      "By November 2024",
-      "By December 2024",
-      "By March 2025",
-      "By February 2025"
+      "10%",
+      "15%",
+      "24%",
+      "30%"
     ],
-    correctAnswer: 1  // B) By December 2024 (index 1)
+    correctAnswer: 2  // c) 24% (index 2)
   },
   {
-    question: "How much higher is the risk of dementia for Māori and Pacific peoples compared to Pākehā?",
+    question: "The Australian study on vaping among adolescents found an increased likelihood of starting smoking among those who vaped. What additional finding did the study report regarding age groups?",
     options: [
-      "15-30% higher",
-      "25-50% higher",
-      "35-70% higher",
-      "45-80% higher"
+      "The risk was equally distributed across all age groups",
+      "Older teens (15-17) were at the highest risk of transitioning to smoking",
+      "The risk was particularly high among younger teens aged 12 to 14",
+      "Only young adults (18-21) showed a significant increase in smoking risk after vaping"
     ],
-    correctAnswer: 3  // D) 45-80% higher (index 3)
+    correctAnswer: 2  // c) The risk was particularly high among younger teens aged 12 to 14 (index 2)
   }
 ];
 
