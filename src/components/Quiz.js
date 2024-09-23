@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the study on amenable mortality across District Health Boards in Aotearoa New Zealand, what was found to be the strongest predictor of amenable mortality?",
+    question: "What is one of the key benefits of the text messaging intervention for young adults?",
     options: [
-      "Deprivation",
-      "Age",
-      "Māori ethnicity",
-      "Geographic location"
+      "Increases physical health",
+      "Reduces anxiety and stress",
+      "Lowers healthcare costs",
+      "Improves diet"
     ],
-    correctAnswer: 2  // c) Māori ethnicity (index 2)
+    correctAnswer: 1  // B) Reduces anxiety and stress (index 1)
   },
   {
-    question: "The systematic review of neurosurgical disease and care for Māori revealed:",
+    question: "Which country leads high-income Anglophone nations in life expectancy?",
     options: [
-      "Extensive research on Māori neurosurgical outcomes",
-      "Limited neurosurgical research for Māori",
-      "Equal representation of Māori in neurosurgical studies",
-      "No disparities in neurosurgical conditions between Māori and non-Māori"
+      "New Zealand",
+      "United Kingdom",
+      "Australia",
+      "Canada"
     ],
-    correctAnswer: 1  // b) Limited neurosurgical research for Māori (index 1)
+    correctAnswer: 2  // C) Australia (index 2)
   },
   {
-    question: "The study on critical congenital heart disease (CCHD) in New Zealand found that:",
+    question: "What is Aotearoa planning to do to combat invasive group A streptococcus (iGAS)?",
     options: [
-      "European infants had lower survival odds compared to Māori and Pacific infants",
-      "There were no differences in healthcare quality across ethnic groups",
-      "Māori and Pacific parents reported multiple challenges navigating the health system",
-      "The healthcare system was well-resourced for all ethnic groups"
+      "Provide free antibiotics",
+      "Make iGAS a notifiable disease",
+      "Launch a vaccination campaign",
+      "Improve public hygiene standards"
     ],
-    correctAnswer: 2  // c) Māori and Pacific parents reported multiple challenges navigating the health system (index 2)
+    correctAnswer: 1  // B) Make iGAS a notifiable disease (index 1)
   },
   {
-    question: "The study on ethnicity records in the Waikato region revealed inaccuracies in Māori ethnicity data. What percentage of Māori in the study identified with more than one ethnicity, highlighting the complexity of ethnicity data collection?",
+    question: "What are two key goals of the New Zealand government's 2030 public service targets?",
     options: [
-      "10%",
-      "15%",
-      "24%",
-      "30%"
+      "Reduce hospital waiting times and increase school funding",
+      "Lower carbon emissions and reduce homelessness",
+      "Reduce Jobseeker Support recipients and emergency housing use",
+      "Improve transportation and reduce unemployment"
     ],
-    correctAnswer: 2  // c) 24% (index 2)
+    correctAnswer: 2  // C) Reduce Jobseeker Support recipients and emergency housing use (index 2)
   },
   {
-    question: "The Australian study on vaping among adolescents found an increased likelihood of starting smoking among those who vaped. What additional finding did the study report regarding age groups?",
+    question: "What was a key finding from the GDP report for June 2024?",
     options: [
-      "The risk was equally distributed across all age groups",
-      "Older teens (15-17) were at the highest risk of transitioning to smoking",
-      "The risk was particularly high among younger teens aged 12 to 14",
-      "Only young adults (18-21) showed a significant increase in smoking risk after vaping"
+      "GDP increased by 1%",
+      "GDP per capita fell by 0.5%",
+      "GDP per capita rose by 2.7%",
+      "GDP remained unchanged"
     ],
-    correctAnswer: 2  // c) The risk was particularly high among younger teens aged 12 to 14 (index 2)
+    correctAnswer: 1  // B) GDP per capita fell by 0.5% (index 1)
   }
 ];
 
