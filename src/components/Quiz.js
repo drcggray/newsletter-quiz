@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What is one of the key benefits of the text messaging intervention for young adults?",
+    question: "What was the main finding regarding Māori lung cancer patients in the Waikato District Health Board study?",
     options: [
-      "Increases physical health",
-      "Reduces anxiety and stress",
-      "Lowers healthcare costs",
-      "Improves diet"
+      "They were less likely to present via ED",
+      "They had better 1-year survival rates",
+      "They were 27% more likely to be diagnosed via ED",
+      "They had no difference in presentation compared to non-Māori"
     ],
-    correctAnswer: 1  // B) Reduces anxiety and stress (index 1)
+    correctAnswer: 2  // c) They were 27% more likely to be diagnosed via ED (index 2)
   },
   {
-    question: "Which country leads high-income Anglophone nations in life expectancy?",
+    question: "What percentage of Compulsory Community Treatment Order recipients were Māori?",
     options: [
-      "New Zealand",
-      "United Kingdom",
-      "Australia",
-      "Canada"
+      "17%",
+      "24%",
+      "34%",
+      "44%"
     ],
-    correctAnswer: 2  // C) Australia (index 2)
+    correctAnswer: 2  // c) 34% (index 2)
   },
   {
-    question: "What is Aotearoa planning to do to combat invasive group A streptococcus (iGAS)?",
+    question: "According to the study on heart failure, what was identified as a key issue for Māori patients?",
     options: [
-      "Provide free antibiotics",
-      "Make iGAS a notifiable disease",
-      "Launch a vaccination campaign",
-      "Improve public hygiene standards"
+      "Higher medication costs",
+      "Lack of specialist care",
+      "Poor communication from providers",
+      "Limited access to hospitals"
     ],
-    correctAnswer: 1  // B) Make iGAS a notifiable disease (index 1)
+    correctAnswer: 2  // c) Poor communication from providers (index 2)
   },
   {
-    question: "What are two key goals of the New Zealand government's 2030 public service targets?",
+    question: "What was the most common physical symptom reported by participants in the study on long-term outcomes of myocarditis after COVID-19 vaccination?",
     options: [
-      "Reduce hospital waiting times and increase school funding",
-      "Lower carbon emissions and reduce homelessness",
-      "Reduce Jobseeker Support recipients and emergency housing use",
-      "Improve transportation and reduce unemployment"
+      "Fatigue",
+      "Chest pain",
+      "Shortness of breath",
+      "Muscle weakness"
     ],
-    correctAnswer: 2  // C) Reduce Jobseeker Support recipients and emergency housing use (index 2)
+    correctAnswer: 1  // b) Chest pain (index 1)
   },
   {
-    question: "What was a key finding from the GDP report for June 2024?",
+    question: "What is the target for training mental health & addiction professionals annually from 2025?",
     options: [
-      "GDP increased by 1%",
-      "GDP per capita fell by 0.5%",
-      "GDP per capita rose by 2.7%",
-      "GDP remained unchanged"
+      "200",
+      "350",
+      "500",
+      "750"
     ],
-    correctAnswer: 1  // B) GDP per capita fell by 0.5% (index 1)
+    correctAnswer: 2  // c) 500 (index 2)
   }
 ];
 
