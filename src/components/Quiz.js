@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What was the main finding regarding Māori lung cancer patients in the Waikato District Health Board study?",
+    question: "The PRISM-A tool for assessing chronic pain in Māori patients aims to improve which of the following outcomes?",
     options: [
-      "They were less likely to present via ED",
-      "They had better 1-year survival rates",
-      "They were 27% more likely to be diagnosed via ED",
-      "They had no difference in presentation compared to non-Māori"
+      "Reduced waiting times for pain clinics",
+      "Increased prescription of pain medication",
+      "Improved patient-clinician relationships and communication",
+      "Standardized pain scores across all ethnic groups"
     ],
-    correctAnswer: 2  // c) They were 27% more likely to be diagnosed via ED (index 2)
+    correctAnswer: 2  // c) Improved patient-clinician relationships and communication (index 2)
   },
   {
-    question: "What percentage of Compulsory Community Treatment Order recipients were Māori?",
+    question: "According to the 2023 Census, which is the largest iwi in Aotearoa New Zealand?",
     options: [
-      "17%",
-      "24%",
-      "34%",
-      "44%"
+      "Ngāti Porou",
+      "Ngāi Tahu/Kāi Tahu",
+      "Ngāpuhi",
+      "Te Arawa"
     ],
-    correctAnswer: 2  // c) 34% (index 2)
+    correctAnswer: 2  // c) Ngāpuhi (index 2)
   },
   {
-    question: "According to the study on heart failure, what was identified as a key issue for Māori patients?",
+    question: "What percentage of people who recorded Māori descent in the 2023 Census did not know their iwi?",
     options: [
-      "Higher medication costs",
-      "Lack of specialist care",
-      "Poor communication from providers",
-      "Limited access to hospitals"
+      "8.9%",
+      "10.7%",
+      "15.3%",
+      "19.3%"
     ],
-    correctAnswer: 2  // c) Poor communication from providers (index 2)
+    correctAnswer: 2  // c) 15.3% (index 2)
   },
   {
-    question: "What was the most common physical symptom reported by participants in the study on long-term outcomes of myocarditis after COVID-19 vaccination?",
+    question: "According to the study on medical exams at the University of Otago, which of the following changes occurred after implementing a policy to include ethnicity in exam questions?",
     options: [
-      "Fatigue",
-      "Chest pain",
-      "Shortness of breath",
-      "Muscle weakness"
+      "Stereotyping of Māori patients increased",
+      "Māori patients were more likely to be portrayed as non-compliant",
+      "Representation of socio-cultural factors in patient scenarios decreased",
+      "Portrayal of Māori patients became more aligned with population demographics"
     ],
-    correctAnswer: 1  // b) Chest pain (index 1)
+    correctAnswer: 3  // d) Portrayal of Māori patients became more aligned with population demographics (index 3)
   },
   {
-    question: "What is the target for training mental health & addiction professionals annually from 2025?",
+    question: "According to Census 2023 data, what percentage of adult smokers (aged 15 years and older) was reported?",
     options: [
-      "200",
-      "350",
-      "500",
-      "750"
+      "7.7%",
+      "8.3%",
+      "7.1%",
+      "12.4%"
     ],
-    correctAnswer: 2  // c) 500 (index 2)
+    correctAnswer: 0  // a) 7.7% (index 0)
   }
 ];
 
