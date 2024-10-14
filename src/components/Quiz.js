@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "The PRISM-A tool for assessing chronic pain in Māori patients aims to improve which of the following outcomes?",
+    question: "Which ethnic group showed higher intrahepatic fat deposition (IHFD) despite lower average BMI?",
     options: [
-      "Reduced waiting times for pain clinics",
-      "Increased prescription of pain medication",
-      "Improved patient-clinician relationships and communication",
-      "Standardized pain scores across all ethnic groups"
+      "European",
+      "Māori",
+      "Pacific Islander",
+      "Asian"
     ],
-    correctAnswer: 2  // c) Improved patient-clinician relationships and communication (index 2)
+    correctAnswer: 3  // d) Asian (index 3)
   },
   {
-    question: "According to the 2023 Census, which is the largest iwi in Aotearoa New Zealand?",
+    question: "What percentage of adolescents in the active transport study regularly cycled to school?",
     options: [
-      "Ngāti Porou",
-      "Ngāi Tahu/Kāi Tahu",
-      "Ngāpuhi",
-      "Te Arawa"
+      "1.3%",
+      "3.6%",
+      "5.2%",
+      "10.1%"
     ],
-    correctAnswer: 2  // c) Ngāpuhi (index 2)
+    correctAnswer: 0  // a) 1.3% (index 0)
   },
   {
-    question: "What percentage of people who recorded Māori descent in the 2023 Census did not know their iwi?",
+    question: "How much more likely were patients in metropolitan areas to receive bariatric surgery compared to those in provincial areas?",
     options: [
-      "8.9%",
-      "10.7%",
-      "15.3%",
-      "19.3%"
+      "Twice as likely",
+      "Four times as likely",
+      "Six times as likely",
+      "Eight times as likely"
     ],
-    correctAnswer: 2  // c) 15.3% (index 2)
+    correctAnswer: 2  // c) Six times as likely (index 2)
   },
   {
-    question: "According to the study on medical exams at the University of Otago, which of the following changes occurred after implementing a policy to include ethnicity in exam questions?",
+    question: "What was the 10-year cancer-specific survival rate for Māori men regularly screened for prostate cancer?",
     options: [
-      "Stereotyping of Māori patients increased",
-      "Māori patients were more likely to be portrayed as non-compliant",
-      "Representation of socio-cultural factors in patient scenarios decreased",
-      "Portrayal of Māori patients became more aligned with population demographics"
+      "95.5%",
+      "97.3%",
+      "98.5%",
+      "99.4%"
     ],
-    correctAnswer: 3  // d) Portrayal of Māori patients became more aligned with population demographics (index 3)
+    correctAnswer: 3  // d) 99.4% (index 3)
   },
   {
-    question: "According to Census 2023 data, what percentage of adult smokers (aged 15 years and older) was reported?",
+    question: "By what percentage did fruit and vegetable prices fall according to the latest food price data?",
     options: [
-      "7.7%",
+      "1.2%",
+      "3.5%",
       "8.3%",
-      "7.1%",
-      "12.4%"
+      "12.5%"
     ],
-    correctAnswer: 0  // a) 7.7% (index 0)
+    correctAnswer: 2  // c) 8.3% (index 2)
   }
 ];
 
