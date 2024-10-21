@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "Which ethnic group showed higher intrahepatic fat deposition (IHFD) despite lower average BMI?",
+    question: "What was the primary finding regarding the Māori-specific pathway within the national Healthline service?",
     options: [
-      "European",
-      "Māori",
-      "Pacific Islander",
-      "Asian"
+      "Low uptake and satisfaction rates",
+      "High uptake and satisfaction rates",
+      "No significant difference from the general pathway",
+      "Decreased use over time"
     ],
-    correctAnswer: 3  // d) Asian (index 3)
+    correctAnswer: 1  // b) High uptake and satisfaction rates (index 1)
   },
   {
-    question: "What percentage of adolescents in the active transport study regularly cycled to school?",
+    question: "What factor was identified as a significant barrier to progression in bariatric surgery for Māori patients?",
     options: [
-      "1.3%",
-      "3.6%",
-      "5.2%",
-      "10.1%"
+      "Lack of interest in the procedure",
+      "Limited availability of surgeons",
+      "Pre-operative weight loss requirements",
+      "High cost of the surgery"
     ],
-    correctAnswer: 0  // a) 1.3% (index 0)
+    correctAnswer: 2  // c) Pre-operative weight loss requirements (index 2)
   },
   {
-    question: "How much more likely were patients in metropolitan areas to receive bariatric surgery compared to those in provincial areas?",
+    question: "What was the annual inflation rate for the year ending September 2024 in Aotearoa?",
     options: [
-      "Twice as likely",
-      "Four times as likely",
-      "Six times as likely",
-      "Eight times as likely"
-    ],
-    correctAnswer: 2  // c) Six times as likely (index 2)
-  },
-  {
-    question: "What was the 10-year cancer-specific survival rate for Māori men regularly screened for prostate cancer?",
-    options: [
-      "95.5%",
-      "97.3%",
-      "98.5%",
-      "99.4%"
-    ],
-    correctAnswer: 3  // d) 99.4% (index 3)
-  },
-  {
-    question: "By what percentage did fruit and vegetable prices fall according to the latest food price data?",
-    options: [
-      "1.2%",
+      "1.5%",
+      "2.2%",
       "3.5%",
-      "8.3%",
-      "12.5%"
+      "4.1%"
     ],
-    correctAnswer: 2  // c) 8.3% (index 2)
+    correctAnswer: 1  // b) 2.2% (index 1)
+  },
+  {
+    question: "Which therapy programme was customized for rangatahi and showed positive behavioral changes?",
+    options: [
+      "Cognitive Behavioral Therapy (CBT)",
+      "Dialectical Behaviour Therapy (DBT)",
+      "Psychodynamic Therapy",
+      "Exposure Therapy"
+    ],
+    correctAnswer: 1  // b) Dialectical Behaviour Therapy (DBT) (index 1)
+  },
+  {
+    question: "Who was featured by Time magazine as one of its Next Generation leaders?",
+    options: [
+      "Professor Rod Jackson",
+      "Dr George Gray",
+      "Hana-Rawhiti Maipi-Clarke",
+      "Dr Miriama Wilson"
+    ],
+    correctAnswer: 2  // c) Hana-Rawhiti Maipi-Clarke (index 2)
   }
 ];
 
