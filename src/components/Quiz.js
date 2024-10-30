@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What was the primary finding regarding the Māori-specific pathway within the national Healthline service?",
+    question: "According to the research on dietary change for Māori, which factor was NOT identified as key to successful interventions?",
     options: [
-      "Low uptake and satisfaction rates",
-      "High uptake and satisfaction rates",
-      "No significant difference from the general pathway",
-      "Decreased use over time"
+      "Whānau support",
+      "Individual meal planning assistance",
+      "Regular monitoring via digital apps",
+      "Long-term funding support"
     ],
-    correctAnswer: 1  // b) High uptake and satisfaction rates (index 1)
+    correctAnswer: 2  // c) Regular monitoring via digital apps (index 2)
   },
   {
-    question: "What factor was identified as a significant barrier to progression in bariatric surgery for Māori patients?",
+    question: "Two years after grommet surgery, the study found Māori children were:",
     options: [
-      "Lack of interest in the procedure",
-      "Limited availability of surgeons",
-      "Pre-operative weight loss requirements",
-      "High cost of the surgery"
+      "2.5 times more likely to experience bilateral hearing loss",
+      "3.5 times more likely to experience bilateral hearing loss",
+      "4.5 times more likely to experience bilateral hearing loss",
+      "5.5 times more likely to experience bilateral hearing loss"
     ],
-    correctAnswer: 2  // c) Pre-operative weight loss requirements (index 2)
+    correctAnswer: 3  // d) 5.5 times more likely (index 3)
   },
   {
-    question: "What was the annual inflation rate for the year ending September 2024 in Aotearoa?",
+    question: "What was the primary reason for increased greenhouse gas emissions in Aotearoa during the June 2024 quarter?",
     options: [
-      "1.5%",
-      "2.2%",
-      "3.5%",
-      "4.1%"
+      "Increased industrial production",
+      "Higher household energy consumption",
+      "Greater use of fossil fuels for electricity generation due to dry conditions",
+      "Increased transportation emissions"
     ],
-    correctAnswer: 1  // b) 2.2% (index 1)
+    correctAnswer: 2  // c) Greater use of fossil fuels... (index 2)
   },
   {
-    question: "Which therapy programme was customized for rangatahi and showed positive behavioral changes?",
+    question: "In the 2023 Census, what was the response rate for Māori participants compared to the overall response rate?",
     options: [
-      "Cognitive Behavioral Therapy (CBT)",
-      "Dialectical Behaviour Therapy (DBT)",
-      "Psychodynamic Therapy",
-      "Exposure Therapy"
+      "77.0% compared to 88.3% overall",
+      "88.3% compared to 77.0% overall",
+      "67.0% compared to 88.3% overall",
+      "88.3% compared to 67.0% overall"
     ],
-    correctAnswer: 1  // b) Dialectical Behaviour Therapy (DBT) (index 1)
+    correctAnswer: 0  // a) 77.0% compared to 88.3% overall (index 0)
   },
   {
-    question: "Who was featured by Time magazine as one of its Next Generation leaders?",
+    question: "Research on venous leg ulcers (VLU) among Māori found which of the following?",
     options: [
-      "Professor Rod Jackson",
-      "Dr George Gray",
-      "Hana-Rawhiti Maipi-Clarke",
-      "Dr Miriama Wilson"
+      "VLU occurred at similar ages across all ethnic groups",
+      "VLU had minimal impact on cultural participation",
+      "VLU occurred at older ages compared to non-Māori",
+      "VLU occurred at younger ages compared to non-Māori"
     ],
-    correctAnswer: 2  // c) Hana-Rawhiti Maipi-Clarke (index 2)
+    correctAnswer: 3  // d) VLU occurred at younger ages... (index 3)
   }
 ];
 
