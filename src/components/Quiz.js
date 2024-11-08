@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the research on dietary change for Māori, which factor was NOT identified as key to successful interventions?",
+    question: "What percentage of tamariki and rangatahi Māori live in the three most-deprived deciles?",
     options: [
-      "Whānau support",
-      "Individual meal planning assistance",
-      "Regular monitoring via digital apps",
-      "Long-term funding support"
+      "43.27%",
+      "53.27%",
+      "63.27%",
+      "73.27%"
     ],
-    correctAnswer: 2  // c) Regular monitoring via digital apps (index 2)
+    correctAnswer: 1  // b) 53.27% (index 1)
   },
   {
-    question: "Two years after grommet surgery, the study found Māori children were:",
+    question: "By what percentage did the average household living costs increase in the year ending September 2024?",
     options: [
-      "2.5 times more likely to experience bilateral hearing loss",
-      "3.5 times more likely to experience bilateral hearing loss",
-      "4.5 times more likely to experience bilateral hearing loss",
-      "5.5 times more likely to experience bilateral hearing loss"
+      "3.4%",
+      "3.8%",
+      "4.3%",
+      "5.1%"
     ],
-    correctAnswer: 3  // d) 5.5 times more likely (index 3)
+    correctAnswer: 1  // b) 3.8% (index 1)
   },
   {
-    question: "What was the primary reason for increased greenhouse gas emissions in Aotearoa during the June 2024 quarter?",
+    question: "In the recent study of endoscopic sinus surgery in the Waikato region, what percentage of patients were Māori, compared to their population representation?",
     options: [
-      "Increased industrial production",
-      "Higher household energy consumption",
-      "Greater use of fossil fuels for electricity generation due to dry conditions",
-      "Increased transportation emissions"
+      "18% of patients vs 24% of population",
+      "24% of patients vs 18% of population",
+      "15% of patients vs 24% of population",
+      "24% of patients vs 30% of population"
     ],
-    correctAnswer: 2  // c) Greater use of fossil fuels... (index 2)
+    correctAnswer: 0  // a) 18% of patients vs 24% of population (index 0)
   },
   {
-    question: "In the 2023 Census, what was the response rate for Māori participants compared to the overall response rate?",
+    question: "What percentage of doctors are currently female in New Zealand's medical workforce?",
     options: [
-      "77.0% compared to 88.3% overall",
-      "88.3% compared to 77.0% overall",
-      "67.0% compared to 88.3% overall",
-      "88.3% compared to 67.0% overall"
+      "45.6%",
+      "46.8%",
+      "48.9%",
+      "51.1%"
     ],
-    correctAnswer: 0  // a) 77.0% compared to 88.3% overall (index 0)
+    correctAnswer: 2  // c) 48.9% (index 2)
   },
   {
-    question: "Research on venous leg ulcers (VLU) among Māori found which of the following?",
+    question: "In the COVID-19 vaccination study, by what percentage did the Health Service User dataset undercount Māori?",
     options: [
-      "VLU occurred at similar ages across all ethnic groups",
-      "VLU had minimal impact on cultural participation",
-      "VLU occurred at older ages compared to non-Māori",
-      "VLU occurred at younger ages compared to non-Māori"
+      "5%",
+      "7%",
+      "9%",
+      "11%"
     ],
-    correctAnswer: 3  // d) VLU occurred at younger ages... (index 3)
+    correctAnswer: 2  // c) 9% (index 2)
   }
 ];
 
