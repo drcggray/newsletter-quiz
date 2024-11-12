@@ -2,6 +2,9 @@
   "name": "maori-health-quiz",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.17.0"
+  },
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@radix-ui/react-label": "^2.1.0",
