@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "What percentage of tamariki and rangatahi Māori live in the three most-deprived deciles?",
+    question: "According to the 2019-2023 data, what percentage of medical student admissions at the University of Otago were Māori students?",
     options: [
-      "43.27%",
-      "53.27%",
-      "63.27%",
-      "73.27%"
+      "15.5%",
+      "17.8%",
+      "20.1%",
+      "22.4%"
     ],
-    correctAnswer: 1  // b) 53.27% (index 1)
+    correctAnswer: 2  // c) 20.1% (index 2)
   },
   {
-    question: "By what percentage did the average household living costs increase in the year ending September 2024?",
+    question: "What is the estimated annual cost to the health system due to cold, damp, and mouldy housing in Aotearoa?",
     options: [
-      "3.4%",
-      "3.8%",
-      "4.3%",
-      "5.1%"
+      "$28 million",
+      "$38 million",
+      "$48 million",
+      "$58 million"
     ],
-    correctAnswer: 1  // b) 3.8% (index 1)
+    correctAnswer: 1  // b) $38 million (index 1)
   },
   {
-    question: "In the recent study of endoscopic sinus surgery in the Waikato region, what percentage of patients were Māori, compared to their population representation?",
+    question: "What percentage of their income do the lowest-income households spend on electricity compared to the wealthiest households?",
     options: [
-      "18% of patients vs 24% of population",
-      "24% of patients vs 18% of population",
-      "15% of patients vs 24% of population",
-      "24% of patients vs 30% of population"
+      "7.5% vs 1.3%",
+      "6.5% vs 2.3%",
+      "5.5% vs 1.5%",
+      "8.5% vs 2.1%"
     ],
-    correctAnswer: 0  // a) 18% of patients vs 24% of population (index 0)
+    correctAnswer: 0  // a) 7.5% vs 1.3% (index 0)
   },
   {
-    question: "What percentage of doctors are currently female in New Zealand's medical workforce?",
+    question: "What is the difference in median travel distance to lung cancer diagnostic services between Māori and European patients?",
     options: [
-      "45.6%",
-      "46.8%",
-      "48.9%",
-      "51.1%"
+      "3.4 km",
+      "5.4 km",
+      "7.4 km",
+      "9.4 km"
     ],
-    correctAnswer: 2  // c) 48.9% (index 2)
+    correctAnswer: 1  // b) 5.4 km (index 1)
   },
   {
-    question: "In the COVID-19 vaccination study, by what percentage did the Health Service User dataset undercount Māori?",
+    question: "What percentage of households in Aotearoa are considered crowded according to the 2023 Census?",
     options: [
-      "5%",
-      "7%",
-      "9%",
-      "11%"
+      "4.2%",
+      "5.2%",
+      "6.2%",
+      "7.2%"
     ],
-    correctAnswer: 2  // c) 9% (index 2)
+    correctAnswer: 2  // c) 6.2% (index 2)
   }
 ];
 
