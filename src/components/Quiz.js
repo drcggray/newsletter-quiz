@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the 2019-2023 data, what percentage of medical student admissions at the University of Otago were Māori students?",
+    question: "According to the diabetes study in Aotearoa, what was the difference in healthy life expectancy between Māori and New Zealand Europeans with no controlled risk factors (from a baseline age of 50)?",
     options: [
-      "15.5%",
-      "17.8%",
-      "20.1%",
-      "22.4%"
+      "5.3 years",
+      "8.3 years",
+      "9.3 years",
+      "10.3 years"
     ],
-    correctAnswer: 2  // c) 20.1% (index 2)
+    correctAnswer: 3  // d) 10.3 years (index 3)
   },
   {
-    question: "What is the estimated annual cost to the health system due to cold, damp, and mouldy housing in Aotearoa?",
+    question: "Which factor contributed most significantly to the decrease in food prices in October 2024?",
     options: [
-      "$28 million",
-      "$38 million",
-      "$48 million",
-      "$58 million"
+      "Decrease in restaurant prices",
+      "Drop in vegetable prices",
+      "Reduction in fruit prices",
+      "Lower ready-to-eat food costs"
     ],
-    correctAnswer: 1  // b) $38 million (index 1)
+    correctAnswer: 1  // b) Drop in vegetable prices (index 1)
   },
   {
-    question: "What percentage of their income do the lowest-income households spend on electricity compared to the wealthiest households?",
+    question: "What was the reported increase in Māori life expectancy between 2001-2022?",
     options: [
-      "7.5% vs 1.3%",
-      "6.5% vs 2.3%",
-      "5.5% vs 1.5%",
-      "8.5% vs 2.1%"
+      "From 70 to 75 years",
+      "From 71 to 76 years",
+      "From 72 to 77 years",
+      "From 73 to 78 years"
     ],
-    correctAnswer: 0  // a) 7.5% vs 1.3% (index 0)
+    correctAnswer: 2  // c) From 72 to 77 years (index 2)
   },
   {
-    question: "What is the difference in median travel distance to lung cancer diagnostic services between Māori and European patients?",
+    question: "In the life expectancy data by IMPB regions, which board showed the smallest gap between Māori and non-Māori/non-Pacific males?",
     options: [
-      "3.4 km",
-      "5.4 km",
-      "7.4 km",
-      "9.4 km"
+      "Te Tauraki",
+      "Te Kahui Hauora o Te Tau Ihu",
+      "Te Pae Oranga o Ruahine o Tararua",
+      "Ātiawa Toa"
     ],
-    correctAnswer: 1  // b) 5.4 km (index 1)
+    correctAnswer: 1  // b) Te Kahui Hauora o Te Tau Ihu (index 1)
   },
   {
-    question: "What percentage of households in Aotearoa are considered crowded according to the 2023 Census?",
+    question: "According to the Treasury's fiscal policy study, how did the tax and transfer system affect income distribution across age groups?",
     options: [
-      "4.2%",
-      "5.2%",
-      "6.2%",
-      "7.2%"
+      "It increased inequality among all age groups",
+      "It only benefited working-age citizens",
+      "It created a more pronounced hump-shaped pattern",
+      "It effectively flattened the distribution"
     ],
-    correctAnswer: 2  // c) 6.2% (index 2)
+    correctAnswer: 3  // d) It effectively flattened the distribution (index 3)
   }
 ];
 
