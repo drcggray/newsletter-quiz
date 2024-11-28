@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the diabetes study in Aotearoa, what was the difference in healthy life expectancy between Māori and New Zealand Europeans with no controlled risk factors (from a baseline age of 50)?",
+    question: "According to the 2023/24 Health Survey, what percentage of Māori adults experience psychological distress?",
     options: [
-      "5.3 years",
-      "8.3 years",
-      "9.3 years",
-      "10.3 years"
+      "13.0%",
+      "19.5%",
+      "28.8%",
+      "34.3%"
     ],
-    correctAnswer: 3  // d) 10.3 years (index 3)
+    correctAnswer: 1  // b) 19.5% (index 1)
   },
   {
-    question: "Which factor contributed most significantly to the decrease in food prices in October 2024?",
+    question: "What percentage of dementia cases among Māori could potentially be prevented through addressing modifiable risk factors?",
     options: [
-      "Decrease in restaurant prices",
-      "Drop in vegetable prices",
-      "Reduction in fruit prices",
-      "Lower ready-to-eat food costs"
+      "28.8%",
+      "34.3%",
+      "47.6%",
+      "51.4%"
     ],
-    correctAnswer: 1  // b) Drop in vegetable prices (index 1)
+    correctAnswer: 3  // d) 51.4% (index 3)
   },
   {
-    question: "What was the reported increase in Māori life expectancy between 2001-2022?",
+    question: "The daily vaping rate among Māori adults is what percentage above the national average?",
     options: [
-      "From 70 to 75 years",
-      "From 71 to 76 years",
-      "From 72 to 77 years",
-      "From 73 to 78 years"
+      "7.8 percentage points",
+      "17.7 percentage points",
+      "22.7 percentage points",
+      "28.8 percentage points"
     ],
-    correctAnswer: 2  // c) From 72 to 77 years (index 2)
+    correctAnswer: 1  // b) 17.7 percentage points (index 1)
   },
   {
-    question: "In the life expectancy data by IMPB regions, which board showed the smallest gap between Māori and non-Māori/non-Pacific males?",
+    question: "How many additional people need to quit smoking to reach the Smokefree 2025 target?",
     options: [
-      "Te Tauraki",
-      "Te Kahui Hauora o Te Tau Ihu",
-      "Te Pae Oranga o Ruahine o Tararua",
-      "Ātiawa Toa"
+      "49,000",
+      "60,000",
+      "82,000",
+      "100,000"
     ],
-    correctAnswer: 1  // b) Te Kahui Hauora o Te Tau Ihu (index 1)
+    correctAnswer: 2  // c) 82,000 (index 2)
   },
   {
-    question: "According to the Treasury's fiscal policy study, how did the tax and transfer system affect income distribution across age groups?",
+    question: "What percentage of adults in New Zealand report good to excellent health according to the 2023/24 Health Survey?",
     options: [
-      "It increased inequality among all age groups",
-      "It only benefited working-age citizens",
-      "It created a more pronounced hump-shaped pattern",
-      "It effectively flattened the distribution"
+      "75.4%",
+      "80.4%",
+      "85.4%",
+      "90.4%"
     ],
-    correctAnswer: 3  // d) It effectively flattened the distribution (index 3)
+    correctAnswer: 2  // c) 85.4% (index 2)
   }
 ];
 
