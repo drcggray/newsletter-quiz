@@ -3,54 +3,54 @@ import { generateCertificate } from '../certificateGenerator';
 
 const questions = [
   {
-    question: "According to the 2023/24 Health Survey, what percentage of Māori adults experience psychological distress?",
+    question: "According to the primary care study, people with mental health conditions were:",
     options: [
-      "13.0%",
-      "19.5%",
-      "28.8%",
-      "34.3%"
+      "3.6% more likely to report problems accessing appointments",
+      "7.1% more likely to report problems accessing appointments",
+      "21% more likely to report problems accessing appointments",
+      "28.8% more likely to report problems accessing appointments"
     ],
-    correctAnswer: 1  // b) 19.5% (index 1)
+    correctAnswer: 1  // b) 7.1% more likely
   },
   {
-    question: "What percentage of dementia cases among Māori could potentially be prevented through addressing modifiable risk factors?",
+    question: "The Healthy Homes Initiative evaluation showed:",
     options: [
-      "28.8%",
-      "34.3%",
-      "47.6%",
-      "51.4%"
+      "A 507% return on investment through healthcare savings",
+      "A reduction in hospitalizations of 28.8%",
+      "Support for over 200,000 people",
+      "Improved health outcomes for 18.6% of participants"
     ],
-    correctAnswer: 3  // d) 51.4% (index 3)
+    correctAnswer: 0  // a) A 507% return on investment
   },
   {
-    question: "The daily vaping rate among Māori adults is what percentage above the national average?",
+    question: "Daily vaping rates in New Zealand have increased from:",
     options: [
-      "7.8 percentage points",
-      "17.7 percentage points",
-      "22.7 percentage points",
-      "28.8 percentage points"
+      "3.5% in 2019/20 to 26.5% in 2023/24",
+      "11.1% in 2019/20 to 28.8% in 2023/24",
+      "3.5% in 2019/20 to 11.1% in 2023/24",
+      "11.1% in 2019/20 to 26.5% in 2023/24"
     ],
-    correctAnswer: 1  // b) 17.7 percentage points (index 1)
+    correctAnswer: 2  // c) 3.5% in 2019/20 to 11.1% in 2023/24
   },
   {
-    question: "How many additional people need to quit smoking to reach the Smokefree 2025 target?",
+    question: "In the ventilation study of New Zealand buildings:",
     options: [
-      "49,000",
-      "60,000",
-      "82,000",
-      "100,000"
+      "All spaces exceeded recommended CO2 thresholds",
+      "About one-third of spaces showed good air quality",
+      "99% of buildings required improvement",
+      "800 rooms were studied across 31 buildings"
     ],
-    correctAnswer: 2  // c) 82,000 (index 2)
+    correctAnswer: 1  // b) About one-third of spaces showed good air quality
   },
   {
-    question: "What percentage of adults in New Zealand report good to excellent health according to the 2023/24 Health Survey?",
+    question: "The Commonwealth Fund's Mirror, Mirror 2024 report found that:",
     options: [
-      "75.4%",
-      "80.4%",
-      "85.4%",
-      "90.4%"
+      "The UK had the highest healthcare spending",
+      "Australia had the poorest health outcomes",
+      "The USA spent over 16% of GDP on healthcare",
+      "The Netherlands had the lowest administrative efficiency"
     ],
-    correctAnswer: 2  // c) 85.4% (index 2)
+    correctAnswer: 2  // c) The USA spent over 16% of GDP on healthcare
   }
 ];
 
